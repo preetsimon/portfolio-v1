@@ -22,7 +22,7 @@ const Qualification = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick = {()=> toggleTab(1)}
+            onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
@@ -34,10 +34,10 @@ const Qualification = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick = {()=> toggleTab(2)}
+            onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experience
+            Favourite Courses
           </div>
         </div>
 
@@ -51,12 +51,14 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div className="">
-                <h3 className="qualification__title">Web Developing</h3>
+                <h3 className="qualification__title">
+                  Post-Degree Diploma: Computer Science
+                </h3>
                 <span className="qualification__subtitle">
-                  Spain - Institution
+                  Douglas College, New Westminster, BC
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 -Present
+                  <i className="uil uil-calendar-alt"></i> 2021 May-2023 April
                 </div>
               </div>
 
@@ -75,64 +77,55 @@ const Qualification = () => {
               </div>
 
               <div className="">
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">
+                  BSc Physics and Chem Minor
+                </h3>
                 <span className="qualification__subtitle">
-                  Spain - Institution
+                  SFU, Burnaby, BC
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 -Present
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div className="">
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institution
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
-                </div>
-              </div>
-
-              <div className="">
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div className=""></div>
-
-              <div className="">
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div className="">
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institution
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2013 -2019
                 </div>
               </div>
             </div>
           </div>
 
-          <div   className={
+          <div
+            className={
               toggleState === 2
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
-            }>
+            }
+          >
+            <div className="qualification__data">
+              <div className=""></div>
+
+              <div className="">
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div className="">
+                <h3 className="qualification__title">
+                  Applied Research Project
+                </h3>
+                <span className="qualification__subtitle">TBA</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2023
+                </div>
+              </div>
+            </div>
+
             <div className="qualification__data">
               <div className="">
-                <h3 className="qualification__title">Product Designer</h3>
-                <span className="qualification__subtitle">Douglas College</span>
+                <h3 className="qualification__title">
+                  Data Structures and Algorithms
+                </h3>
+                <span className="qualification__subtitle">
+                  Popular dsa in Java
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 -Present
+                  <i className="uil uil-calendar-alt"></i> 2022
                 </div>
               </div>
 
@@ -151,47 +144,32 @@ const Qualification = () => {
               </div>
 
               <div className="">
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">Abc - Vancouver</span>
+                <h3 className="qualification__title">
+                  Full-Stack Web Development
+                </h3>
+                <span className="qualification__subtitle">
+                  Built web-apps using MERN stack
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 -Present
+                  <i className="uil uil-calendar-alt"></i> 2022
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div className="">
-                <h3 className="qualification__title">Web Developer</h3>
+                <h3 className="qualification__title">Software Development</h3>
                 <span className="qualification__subtitle">
-                  White hat - Toronto
+                  Software Development principles and lifecycle
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i>2021
                 </div>
               </div>
 
               <div className="">
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div className=""></div>
-
-              <div className="">
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div className="">
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institution
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2021
-                </div>
               </div>
             </div>
           </div>

@@ -69,7 +69,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">I can help build your project</h3>
+          <h3 className="contact__title">I can help build your next project</h3>
 
           <form ref={form} onSubmit={sendEmail} 
           className="contact__form">
