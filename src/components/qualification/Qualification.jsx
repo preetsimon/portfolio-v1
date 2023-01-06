@@ -37,7 +37,7 @@ const Qualification = () => {
             onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Favourite Courses
+            Relevant <br/> Coursework
           </div>
         </div>
 
