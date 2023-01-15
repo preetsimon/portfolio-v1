@@ -112,6 +112,38 @@
     color: var(--title-color);
 }
 
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.75rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+  
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.2rem;}
+    30% {margin-top: -5.2rem;}
+    40% {margin-top: -10.44rem;}
+    60% {margin-top: -10.44rem;}
+    70% {margin-top: -5.2rem;}
+    80% {margin-top: -5.2rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

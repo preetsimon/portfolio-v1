@@ -5,6 +5,8 @@ const Data = () => {
     <div className="home__data">
       <h1 className="home__title">
         Simon Chauke
+
+    
         <svg
           width="36"
           height="36"
@@ -55,7 +57,15 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Frontend Developer</h3>
+      <h3 className="home__subtitle">
+    
+      <section class="animation">
+    <div class="first"><div>ReactJS</div></div>
+    <div class="second"><div>Frontend</div></div>
+    <div class="third"><div>Full-Stack</div></div>
+  </section>
+
+        </h3>
       <p className="home__description">I am eager to begin my professional journey as Frontend Developer. Take a chance on me</p>
       <a href="#contact" className="button button--flex">
         Say hello
