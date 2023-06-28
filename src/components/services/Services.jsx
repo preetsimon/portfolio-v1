@@ -16,7 +16,7 @@ const toggleTab = (index) => {
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">Web <br/> Designer</h3>
+            <h3 className="services__title">Web <br/> Development</h3>
           </div>
 
           <span className="services__button" onClick={()=> toggleTab(1)}>
@@ -27,7 +27,7 @@ const toggleTab = (index) => {
             <div className="services__modal-content">
               <i  onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">UX/UI Designer</h3>
+              <h3 className="services__modal-title">Full-Stack Developer</h3>
               <p className="services__modal-description">
                 My technical skills combined with my enthusiasm for learning
                 will make me an asset to your team. I am excited about the
@@ -69,7 +69,7 @@ const toggleTab = (index) => {
         <div className="services__content">
           <div>
             <i className="uil uil-arrow services__icon"></i>
-            <h3 className="services__title">Front-End <br/> Testing/QA</h3>
+            <h3 className="services__title">Software Testing <br/>QA</h3>
           </div>
 
           <span className="services__button" onClick={()=> toggleTab(2)}>
@@ -133,7 +133,7 @@ const toggleTab = (index) => {
             <div className="services__modal-content">
               <i  onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Penetration Testing</h3>
+              <h3 className="services__modal-title">Cybersecurity Consulting</h3>
               <p className="services__modal-description">
                 My technical skills combined with my enthusiasm for learning
                 will make me an asset to your team. I am excited about the
