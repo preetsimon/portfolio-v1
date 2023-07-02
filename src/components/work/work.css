@@ -35,7 +35,7 @@
 
 .work__img {
   width: 295px;
-  max-height: 180px;
+  height: 180px;
   object-fit: cover;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
@@ -50,9 +50,17 @@
 .work__button {
   color: var(--text-color);
   font-size: var(--small-font-size);
-  display: flex;
+  display: inline-block;
+  margin-right: 2rem;
+  margin-left: 2rem;
   align-items: center;
   column-gap: 0.25rem;
+}
+.demo {
+  padding: 0.4rem;
+  background: #e6e6e6;
+  border-radius: 12%;
+  background-clip: border-box;
 }
 
 .work__button-icon {
@@ -99,22 +107,22 @@
 }
 
 @media screen and (max-width: 576px) {
-    .work__container {
-      grid-template-columns: 1fr;
-    }
-
-    .work__imag {
-        width: 100%;
-    }
+  .work__container {
+    grid-template-columns: 1fr;
   }
 
-    /* For small devices */
-    @media screen and (max-width: 350px) {
-    .work__item {
-        font-size: var(--small-font-size);
-    }
+  .work__imag {
+    width: 100%;
+  }
+}
 
-    .work__filters{
-        column-gap: 0.25rem;
-    }
-          }
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .work__item {
+    font-size: var(--small-font-size);
+  }
+
+  .work__filters {
+    column-gap: 0.25rem;
+  }
+}
