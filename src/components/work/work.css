@@ -30,10 +30,13 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
+  overflow: hidden;
 }
 
 .work__img {
   width: 295px;
+  max-height: 180px;
+  object-fit: cover;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }

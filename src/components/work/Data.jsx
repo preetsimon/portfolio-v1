@@ -1,7 +1,7 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
+import Work1 from "../../assets/projectHome.png";
+import Work2 from "../../assets/projectMap.png";
+import Work3 from "../../assets/projectBlog.png";
+import Work4 from "../../assets/projectPHP.png";
 import Work5 from "../../assets/work5.jpg";
 
 
@@ -9,32 +9,32 @@ export const projectsData = [
     {
       id: 1,
       image: Work1,
-      title: "Web design",
+      title: "Capstone Project",
       category: "web",
     },
     {
       id: 2,
       image: Work2,
-      title: "App movil",
-      category: "app",
+      title: "React ParkFinder API",
+      category: "frontend",
     },
     {
       id: 3,
       image: Work3,
-      title: "Brand design",
-      category: "design",
+      title: "FullStack Blog App",
+      category: "fullstack",
     },
     {
       id: 4,
       image: Work4,
-      title: "App movil",
-      category: "app",
+      title: "PHP CMS",
+      category: "fullstack",
     },
     {
       id: 5,
       image: Work5,
-      title: "Web design",
-      category: "web",
+      title: "Design to code",
+      category: "frontend",
     },
   ];
 
@@ -43,13 +43,14 @@ export const projectsData = [
       name : 'all',
     },
     {
-      name : 'web',
+      name : 'frontend',
     },
     {
-      name : 'app',
+      name : 'fullstack',
     },
     {
-      name : 'design',
+      name : 'cybersecurity',
     },
+  
   ]
    
