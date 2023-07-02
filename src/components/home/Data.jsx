@@ -59,10 +59,10 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">
     
-      <section class="animation">
-    <div class="first"><div>ReactJS</div></div>
-    <div class="second"><div>Frontend</div></div>
-    <div class="third"><div>Full-Stack</div></div>
+      <section className="animation">
+    <div className="first"><div>ReactJS</div></div>
+    <div className="second"><div>Frontend</div></div>
+    <div className="third"><div>Full-Stack</div></div>
   </section>
 
         </h3>
