@@ -13,6 +13,7 @@ export const projectsData = [
       image: Work1,
       title: "Capstone Project",
       category: "web",
+      demo: "https://vimeo.com/841731583",
       source: "https://github.com/preetsimon/syncHome-Capstone-Project",
     },
     {
