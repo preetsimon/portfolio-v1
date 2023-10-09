@@ -61,7 +61,6 @@ const Data = () => {
     
       <section className="animation">
     <div className="first"><div>ReactJS</div></div>
-    <div className="second"><div>Frontend</div></div>
     <div className="third"><div>Full-Stack</div></div>
     <div className="third"><div>Pen-testing</div></div>
 
