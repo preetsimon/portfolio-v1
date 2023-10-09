@@ -66,7 +66,7 @@ const Data = () => {
   </section>
 
         </h3>
-      <p className="home__description">I am eager to begin my professional journey as Frontend Developer. Take a chance on me</p>
+      <p className="home__description">I am probably the best IT professional in the room. Take a chance on me</p>
       <a href="#contact" className="button button--flex">
         Say hello
         <svg
